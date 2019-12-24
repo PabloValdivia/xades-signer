@@ -25,7 +25,7 @@ public class Program {
         return null;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
         if (args.length==0) {
             System.out.println(" ERROR: el xml, archivo y password son obligatorios");
@@ -38,6 +38,6 @@ public class Program {
 
         XAdESBESSignature signer = new XAdESBESSignature(file, sign, password);
 
-        System.out.println(getStringFromDocument(signer.firmarDocumento()));
+        System.out.println(getStringFromDocument(signer.signDocument()));
     }
 }

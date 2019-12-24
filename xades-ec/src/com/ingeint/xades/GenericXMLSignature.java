@@ -35,7 +35,6 @@ import java.io.StringWriter;
 import static java.util.Objects.isNull;
 import static java.util.Objects.nonNull;
 
-import java.nio.channels.ScatteringByteChannel;
 import java.security.KeyStore;
 import java.security.KeyStoreException;
 import java.security.NoSuchAlgorithmException;
@@ -79,12 +78,12 @@ public abstract class GenericXMLSignature {
     public static final String OUTPUT_DIRECTORY = ".";
 
     public GenericXMLSignature(String pkcs12, String pkcs12_password) {
-        byte[] decoded_firma = Base64.decodeBase64(pkcs12.getBytes());
-        String decodedString_firma = new String(decoded_firma);
+        byte[] decoded_sign = Base64.decodeBase64(pkcs12.getBytes());
+        String decodedString_sign = new String(decoded_sign);
 
         InputStream arch = null;
         try {
-            arch = new FileInputStream(decodedString_firma);
+            arch = new FileInputStream(decodedString_sign);
         } catch (FileNotFoundException ex) {
             Logger.getLogger(GenericXMLSignature.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -120,11 +119,11 @@ public abstract class GenericXMLSignature {
 
         DataToSign dataToSign = createDataToSign();
 
-        FirmaXML firma = new FirmaXML();
+        FirmaXML sign = new FirmaXML();
 
         Document docSigned = null;
         try {
-            Object[] res = firma.signFile(certificate, dataToSign, privateKey, provider);
+            Object[] res = sign.signFile(certificate, dataToSign, privateKey, provider);
             return (Document) res[0];
         } catch (Exception ex) {
             System.err.println("Error realizando la firma");
@@ -246,7 +245,7 @@ public abstract class GenericXMLSignature {
     private X509Certificate getFirstCertificate(final IPKStoreManager storeManager) throws Exception {
         try {
             List<X509Certificate> certs = storeManager.getSignCertificates();
-            if (certs == null || certs.isEmpty()) {
+            if (isNull(certs) || certs.isEmpty()) {
                 throw  new Exception("La lista de certificados se encuentra vacía.");
             }
             X509Certificate certificate = certs.stream().filter(this::hasCertificatePolicies).findFirst()
@@ -272,7 +271,7 @@ public abstract class GenericXMLSignature {
      *         certificado es nulo
      */
     private boolean hasCertificatePolicies(X509Certificate certificate) {
-        if (certificate != null) {
+        if (nonNull(certificate)) {
             byte[] certificatePolicies = certificate.getExtensionValue(ID_CE_CERTIFICATE_POLICIES);
             if (certificatePolicies != null && certificatePolicies.length > 0) {
                 return true;

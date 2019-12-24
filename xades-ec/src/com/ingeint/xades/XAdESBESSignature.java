@@ -40,7 +40,7 @@ public class XAdESBESSignature extends GenericXMLSignature {
         this.resourceToSign = docAfirmar;
     }
 
-    public Document firmarDocumento() {
+    public Document signDocument() throws Exception {
         return execute();
     }
 

@@ -42,7 +42,7 @@ public class XAdESASignature extends GenericXMLSignature {
     private static final String URL_TSA = "http://localhost:41280/tsa";
     private static final String URL_OCSP = "http://ocsp.ctpa.mityc.es";
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         XAdESASignature signature = new XAdESASignature();
         signature.execute();
     }
