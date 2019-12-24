@@ -7,6 +7,23 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -22,9 +39,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="findjar.last.used.dir" value="$PROJECT_DIR$/libs" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/ingeint" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/libs" />
       <recent name="$PROJECT_DIR$/src/com/ingeint/xades" />
@@ -98,10 +122,26 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="633" y="200" width="671" height="685" key="#Program_(1)/0.27.1920.1053@0.27.1920.1053" timestamp="1577154834424" />
-    <state x="743" y="296" width="424" height="513" key="FileChooserDialogImpl" timestamp="1577153314537">
+    <state x="555" y="214" width="847" height="677" key="#Project_Structure" timestamp="1577207968551">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="743" y="296" width="424" height="513" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1577153314537" />
+    <state x="555" y="214" width="847" height="677" key="#Project_Structure/0.27.1920.1053@0.27.1920.1053" timestamp="1577207968551" />
+    <state x="710" y="380" width="518" height="325" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1577207033868">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="710" y="380" width="518" height="325" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1577207033868" />
+    <state x="693" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577207925210">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="693" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1577207925210" />
+    <state x="743" y="296" width="424" height="513" key="FileChooserDialogImpl" timestamp="1577207794386">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="743" y="296" width="424" height="513" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1577207794386" />
+    <state x="513" y="183" width="912" height="719" key="GradleDaemons" timestamp="1577207548893">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="513" y="183" width="912" height="719" key="GradleDaemons/0.27.1920.1053@0.27.1920.1053" timestamp="1577207548893" />
     <state width="1354" height="322" key="GridCell.Tab.0.bottom" timestamp="1577156396340">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -134,16 +174,24 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1354" height="322" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1577156396346" />
-    <state x="619" y="139" width="710" height="807" key="find.popup" timestamp="1577206595457">
+    <state x="443" y="130" width="1024" height="845" key="SettingsEditor" timestamp="1577208299252">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="619" y="139" width="710" height="807" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1577206595457" />
+    <state x="443" y="130" width="1024" height="845" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1577208299252" />
+    <state x="619" y="139" width="710" height="807" key="find.popup" timestamp="1577208064007">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="619" y="139" width="710" height="807" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1577208064007" />
+    <state x="637" y="262" width="672" height="678" key="search.everywhere.popup" timestamp="1577207545005">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="637" y="262" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1577207545005" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Program.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/ingeint/Program.java</url>
           <line>34</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>

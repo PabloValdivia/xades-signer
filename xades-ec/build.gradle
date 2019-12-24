@@ -1,0 +1,23 @@
+plugins {
+    id 'application'
+    id "com.github.onslip.gradle-one-jar" version "1.0.5"
+}
+
+repositories {
+    jcenter()
+}
+
+sourceCompatibility=11
+
+task generateJar(type: OneJar) {
+    mainClass = 'com.ingeint.Program'
+}
+
+application {
+    mainClassName = 'com.ingeint.Program'
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: '*.jar')
+}
+
