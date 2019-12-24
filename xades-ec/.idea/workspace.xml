@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7dc30eb1-5c92-4d85-a0c6-533088630136" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VPQqtWkkx1JlQkO7NRTV9tdgZa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="findjar.last.used.dir" value="$PROJECT_DIR$/libs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/libs" />
+      <recent name="$PROJECT_DIR$/src/com/ingeint/xades" />
+      <recent name="$PROJECT_DIR$/src/com/ingeint/xades/validator" />
+      <recent name="$PROJECT_DIR$/src/com/ingeint/enums" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Program">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.ingeint.Main" />
+      <module name="xades-ec" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Program (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Program" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Program" />
+      <module name="xades-ec" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Program" />
+      <item itemvalue="Application.Program (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Program" />
+        <item itemvalue="Application.Program (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7dc30eb1-5c92-4d85-a0c6-533088630136" name="Default Changelist" comment="" />
+      <created>1577152443093</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577152443093</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="633" y="200" width="671" height="685" key="#Program_(1)" timestamp="1577154834424">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="633" y="200" width="671" height="685" key="#Program_(1)/0.27.1920.1053@0.27.1920.1053" timestamp="1577154834424" />
+    <state x="743" y="296" width="424" height="513" key="FileChooserDialogImpl" timestamp="1577153314537">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="743" y="296" width="424" height="513" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1577153314537" />
+    <state width="1354" height="322" key="GridCell.Tab.0.bottom" timestamp="1577156396340">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1354" height="322" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1577156396340" />
+    <state width="1354" height="322" key="GridCell.Tab.0.center" timestamp="1577156396338">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1354" height="322" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1577156396338" />
+    <state width="1354" height="322" key="GridCell.Tab.0.left" timestamp="1577156396337">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1354" height="322" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1577156396337" />
+    <state width="1354" height="322" key="GridCell.Tab.0.right" timestamp="1577156396339">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1354" height="322" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1577156396339" />
+    <state width="1354" height="322" key="GridCell.Tab.1.bottom" timestamp="1577156396346">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1354" height="322" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1577156396346" />
+    <state width="1354" height="322" key="GridCell.Tab.1.center" timestamp="1577156396342">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1354" height="322" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1577156396342" />
+    <state width="1354" height="322" key="GridCell.Tab.1.left" timestamp="1577156396341">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1354" height="322" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1577156396341" />
+    <state width="1354" height="322" key="GridCell.Tab.1.right" timestamp="1577156396346">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1354" height="322" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1577156396346" />
+    <state x="619" y="139" width="710" height="807" key="find.popup" timestamp="1577156503141">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="619" y="139" width="710" height="807" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1577156503141" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Program.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="MITyCLibPolicy-1.1.7">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/MITyCLibPolicy-1.1.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

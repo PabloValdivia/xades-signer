@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="MITyCLibAPI-1.1.7" level="project" />
+    <orderEntry type="library" name="MITyCLibCert-1.1.7" level="project" />
+    <orderEntry type="library" name="MITyCLibCrypt-1.1.7" level="project" />
+    <orderEntry type="library" name="MITyCLibOCSP-1.1.7" level="project" />
+    <orderEntry type="library" name="MITyCLibPolicy-1.1.7" level="project" />
+    <orderEntry type="library" name="MITyCLibTrust-1.1.7" level="project" />
+    <orderEntry type="library" name="MITyCLibTSA-1.1.7" level="project" />
+    <orderEntry type="library" name="MITyCLibXADES-1.1.7" level="project" />
+    <orderEntry type="library" name="commons-codec-1.13" level="project" />
+    <orderEntry type="library" name="xmlsec-1.3.0" level="project" />
+  </component>
+</module>
