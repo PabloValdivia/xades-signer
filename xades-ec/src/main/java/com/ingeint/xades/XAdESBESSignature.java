@@ -29,6 +29,7 @@ import org.w3c.dom.Document;
  * Descripción:
  *
  * @author Alcides Rivera <alcides@virtualsami.com.ec>
+ * @author Orlando Curieles <orlando.curieles@ingeint.com>
  * @version 0.1
  */
 public class XAdESBESSignature extends GenericXMLSignature {
